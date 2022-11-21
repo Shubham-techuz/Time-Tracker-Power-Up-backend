@@ -5,4 +5,4 @@ const completeTimeSchema = new mongoose.Schema({
     completeTime: String
 });
 
-module.exports = mongoose.model('completeTime', completeTimeSchema);
+module.exports = mongoose.model('complete_time', completeTimeSchema);

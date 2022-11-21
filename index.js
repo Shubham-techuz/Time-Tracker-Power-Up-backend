@@ -11,7 +11,6 @@ const port = process.env.PORT || 5000
 app.use(express.json());
 app.use(cors());
 
-
 // Getting the complete Timestamp 
 app.get("/timestamp/:id", async (req,res) => {
     try {
@@ -63,7 +62,6 @@ app.post("/", async (req,res) => {
         console.log("Error-----> ",err);
     }
 });
-
 
 
 app.listen(port, () => {
