@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 
 
-app.use('/api/stuff', cardRoutes);
-app.use('/api/auth', timeRoutes);
+app.use('/', cardRoutes);
+app.use('/', timeRoutes);
 
 module.exports = app;
